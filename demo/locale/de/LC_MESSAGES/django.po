@@ -1,0 +1,172 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-30 09:17+0200\n"
+"PO-Revision-Date: 2024-09-30 09:35+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.5\n"
+
+#: models.py:13
+msgid "category name"
+msgstr "Name der Kategorie"
+
+#: models.py:20
+msgid "description"
+msgstr "Beschreibung"
+
+#: models.py:21
+msgid "an optional description for the category"
+msgstr "optionale Beschreibung der Kategorie"
+
+#: models.py:28 models.py:206
+msgid "category"
+msgstr "Kategorie"
+
+#: models.py:29
+msgid "categories"
+msgstr "Kategorien"
+
+#: models.py:39
+msgid "customer name"
+msgstr "Name des Kunden"
+
+#: models.py:46 models.py:139
+msgid "contact person"
+msgstr "Ansprechperson"
+
+#: models.py:53 models.py:146
+msgid "address"
+msgstr "Anschrift"
+
+#: models.py:60 models.py:153
+msgid "city"
+msgstr "Ort"
+
+#: models.py:67 models.py:160
+msgid "postal code"
+msgstr "Postleitzahl"
+
+#: models.py:74 models.py:167
+msgid "country"
+msgstr "Land"
+
+#: models.py:81 models.py:271
+msgid "customer"
+msgstr "Kunde"
+
+#: models.py:82
+msgid "customers"
+msgstr "Kunden"
+
+#: models.py:92
+msgid "last name"
+msgstr "Nachname"
+
+#: models.py:97
+msgid "first name"
+msgstr "Vorname"
+
+#: models.py:101
+msgid "birth date"
+msgstr "Geburtstag"
+
+#: models.py:108
+msgid "photo"
+msgstr "Foto"
+
+#: models.py:114
+msgid "notes"
+msgstr "Notiz"
+
+#: models.py:121 models.py:278
+msgid "employee"
+msgstr "Angestellte"
+
+#: models.py:122
+msgid "employees"
+msgstr "Angestellte"
+
+#: models.py:132
+msgid "supplier name"
+msgstr "Name des Lieferanten"
+
+#: models.py:174 models.py:251
+msgid "phone number"
+msgstr "Telefonnummer"
+
+#: models.py:181 models.py:199
+msgid "supplier"
+msgstr "Lieferant"
+
+#: models.py:182
+msgid "suppliers"
+msgstr "Lieferanten"
+
+#: models.py:192
+msgid "product name"
+msgstr "Name des Produkts"
+
+#: models.py:213
+msgid "unit"
+msgstr "Einheit"
+
+#: models.py:220
+msgid "price"
+msgstr "Preis"
+
+#: models.py:233 models.py:317
+msgid "product"
+msgstr "Produkt"
+
+#: models.py:234
+msgid "products"
+msgstr "Produkte"
+
+#: models.py:244
+msgid "shipper name"
+msgstr "Name des Spediteurs"
+
+#: models.py:258 models.py:290
+msgid "shipper"
+msgstr "Spediteur"
+
+#: models.py:259
+msgid "shippers"
+msgstr "Spediteure"
+
+#: models.py:283
+msgid "order date"
+msgstr "Auftragsdatum"
+
+#: models.py:297 models.py:310
+msgid "order"
+msgstr "Auftrag"
+
+#: models.py:298
+msgid "orders"
+msgstr "Aufträge"
+
+#: models.py:321
+msgid "quantity"
+msgstr "Menge"
+
+#: models.py:334
+msgid "order detail"
+msgstr "Position"
+
+#: models.py:335
+msgid "order details"
+msgstr "Positionen"

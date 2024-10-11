@@ -1,0 +1,84 @@
+[
+{
+  "model": "demo.category",
+  "pk": 1,
+  "fields": {
+    "category_name": "Category",
+    "description": null
+  }
+},
+{
+  "model": "demo.customer",
+  "pk": 1,
+  "fields": {
+    "customer_name": "Customer",
+    "contact_name": null,
+    "address": null,
+    "city": null,
+    "postal_code": null,
+    "country": null
+  }
+},
+{
+  "model": "demo.employee",
+  "pk": 1,
+  "fields": {
+    "last_name": "Last",
+    "first_name": "First",
+    "birth_date": "2004-09-30",
+    "photo": "",
+    "notes": ""
+  }
+},
+{
+  "model": "demo.supplier",
+  "pk": 1,
+  "fields": {
+    "supplier_name": "Supplier",
+    "contact_name": null,
+    "address": null,
+    "city": null,
+    "postal_code": null,
+    "country": null,
+    "phone": null
+  }
+},
+{
+  "model": "demo.product",
+  "pk": 1,
+  "fields": {
+    "product_name": "Product",
+    "supplier": 1,
+    "category": 1,
+    "unit": null,
+    "price": "0.00"
+  }
+},
+{
+  "model": "demo.shipper",
+  "pk": 1,
+  "fields": {
+    "shipper_name": "Shipper",
+    "phone": null
+  }
+},
+{
+  "model": "demo.order",
+  "pk": 1,
+  "fields": {
+    "customer": 1,
+    "employee": 1,
+    "order_date": "2024-09-30",
+    "shipper": 1
+  }
+},
+{
+  "model": "demo.orderdetail",
+  "pk": 1,
+  "fields": {
+    "order": 1,
+    "product": 1,
+    "quantity": 1
+  }
+}
+]
